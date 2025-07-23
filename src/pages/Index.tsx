@@ -14,7 +14,6 @@ const Index = () => {
       <main>
         <HeroSection />
       </main>
-      <Footer />
     </div>
   );
 };
