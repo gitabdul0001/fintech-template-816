@@ -32,7 +32,7 @@ const HeroSection = () => {
         </h1>
         
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto text-balance">
-          Streamline your financial workflows with our comprehensive fintech platform. Built for modern businesses who value efficiency, compliance, and scalable growth.
+          Create engaging social content in seconds with our AI assistant. Ideal for creators, teams, and businesses focused on growth, clarity, and brand impact.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6 items-center">
