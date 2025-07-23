@@ -10,7 +10,7 @@ const HeroSection = () => {
     }, 300);
     return () => clearTimeout(timer);
   }, []);
-  return <section className="relative w-full min-h-screen py-12 md:py-20 px-6 md:px-12 flex flex-col items-center justify-center overflow-hidden cosmic-grid">
+  return <section className="relative w-full min-h-screen py-12 md:py-20 px-6 md:px-12 flex flex-col items-center justify-center overflow-hidden">
       {/* Full grid background */}
       
       {/* Gradient glow effect */}
