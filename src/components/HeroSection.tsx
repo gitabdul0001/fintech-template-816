@@ -35,12 +35,12 @@ const HeroSection = () => {
           Create engaging social content in seconds with our AI assistant. Ideal for creators, teams, and businesses focused on growth, clarity, and brand impact.
         </p>
         
-        <div className="flex flex-col sm:flex-row gap-4 justify-center pt-6 items-center">
-          <Button className="bg-primary text-primary-foreground hover:bg-primary/80 hover:text-primary-foreground text-base h-12 px-8 transition-all duration-200 min-h-[48px]">
-            Start for free
-          </Button>
-          <Button variant="outline" className="border-border text-foreground hover:bg-accent hover:text-accent-foreground text-base h-12 px-8 transition-all duration-200 min-h-[48px]">
-            Book a demo
+        <div className="flex justify-center pt-6">
+          <Button 
+            onClick={() => window.open('https://app.postgenai.xyz/', '_blank')}
+            className="bg-foreground text-background hover:bg-foreground/90 hover:scale-105 text-lg h-14 px-12 transition-all duration-300 shadow-lg hover:shadow-xl font-medium"
+          >
+            Try it
           </Button>
         </div>
         
