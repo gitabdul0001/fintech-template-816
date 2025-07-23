@@ -10,9 +10,8 @@ const HeroSection = () => {
     }, 300);
     return () => clearTimeout(timer);
   }, []);
-  return <section className="relative w-full py-12 md:py-20 px-6 md:px-12 flex flex-col items-center justify-center overflow-hidden bg-background">
-      {/* Cosmic particle effect (background dots) */}
-      <div className="absolute inset-0 cosmic-grid opacity-50"></div>
+  return <section className="relative w-full min-h-screen py-12 md:py-20 px-6 md:px-12 flex flex-col items-center justify-center overflow-hidden cosmic-grid">
+      {/* Full grid background */}
       
       {/* Gradient glow effect */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full">
